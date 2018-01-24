@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="virca.tensorflow.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:focusable="true"
+            android:text="Make 1 snapshot" />
+
+        <Button
+            android:id="@+id/bt_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:text="History" />
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:text="" />
+        <!--
+                <Button
+                    android:id="@+id/button_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:text="Bg" />
+
+                android:onClick="takePicBg"
+
+        <Button
+            android:id="@+id/button_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:text="Make 1 snapshot" />
+
+        <Button
+            android:id="@+id/button_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min px area" />
+
+        <EditText
+            android:id="@+id/et_threshold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Threshold"
+            android:lines="1"
+            android:singleLine="true"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height from floor (m)" />
+
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:lines="1"
+            android:singleLine="true"
+            android:text="" />
+-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <virca.tensorflow.ui.camera.CameraSourcePreview
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:visibility="visible">
+
+            <virca.tensorflow.ui.camera.GraphicOverlay
+                android:id="@+id/graphicOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </virca.tensorflow.ui.camera.CameraSourcePreview>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_toRightOf="@+id/preview"
+            android:layout_toEndOf="@+id/preview"
+            android:layout_marginLeft="@dimen/activity_margin_horizontal"
+            android:layout_marginStart="@dimen/activity_margin_horizontal"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:visibility="visible" />
+            <!--
+            <Button
+                android:id="@+id/bt_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:text="Results" />
+-->
+            <ImageView
+                android:id="@+id/edgeImageView"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

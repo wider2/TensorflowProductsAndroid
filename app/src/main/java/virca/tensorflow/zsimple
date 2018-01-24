@@ -1,0 +1,106 @@
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case RC_HANDLE_CAMERA_PERM: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(this, "Permission granted.", Toast.LENGTH_SHORT).show();
+                    //reload my activity with permission granted or use the features what required the permission
+                    finish();
+                    startActivity(getIntent());
+                } else {
+                    Toast.makeText(this, "The app was not allowed to get your camera state. Hence, it cannot function properly. Please consider granting it this permission", Toast.LENGTH_LONG).show();
+/*
+                    boolean startActivity = true;
+                    for (int i = 0; i < grantResults.length; i++) {
+                        if (grantResults.length > 0 && grantResults[i] != PackageManager.PERMISSION_GRANTED) {
+                            String permission = permissions[i];
+                            boolean showRationale = ActivityCompat.shouldShowRequestPermissionRationale(this, permission);
+                            if (!showRationale) {
+                                Intent intent = new Intent();
+                                intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                                Uri uri = Uri.fromParts("package", this.getPackageName(), null);
+                                intent.setData(uri);
+                                startActivityWithIntent(intent);
+                                Toast.makeText(this, "Enable required permissions", Toast.LENGTH_LONG).show();
+                                startActivity = false;
+                                break;
+                            } else {
+                                Toast.makeText(this, "Enable required permissions", Toast.LENGTH_LONG).show();
+                                break;
+                            }
+                        }
+                    }
+                    if(startActivity) {
+                        finish();
+                        startActivityWithIntent(getIntent());
+                    }
+*/
+                }
+            }
+        }
+        /*
+        if (requestCode != RC_HANDLE_CAMERA_PERM) {
+            Log.d(TAG, "Got unexpected permission result: " + requestCode);
+            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+            return;
+        }
+
+        if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            Log.d(TAG, "Camera permission granted - initialize the camera source");
+            // we have permission, so create the camerasource
+            boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
+            boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
+            createCameraSource(autoFocus, useFlash);
+            return;
+        }
+
+        Log.e(TAG, "Permission not granted: results len = " + grantResults.length +
+                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+
+        DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                finish();
+            }
+        };
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.app_name))
+                .setMessage(R.string.no_camera_permission)
+                .setPositiveButton(R.string.ok, listener)
+                .show();
+*/
+/*
+        boolean startActivity = true;
+        for (int i = 0; i < grantResults.length; i++) {
+            if (grantResults.length > 0 && grantResults[i] != PackageManager.PERMISSION_GRANTED) {
+                String permission = permissions[i];
+                boolean showRationale = false; // ActivityCompat.shouldShowRequestPermissionRationale(permission);
+                if (!showRationale) {
+                    Intent intent = new Intent();
+                    intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                    Uri uri = Uri.fromParts("package", this.getPackageName(), null);
+                    intent.setData(uri);
+                    startActivityWithIntent(intent);
+                    Toast.makeText(this, "Enable required permissions", Toast.LENGTH_LONG).show();
+                    startActivity = false;
+                    break;
+                } else {
+                    Toast.makeText(this, "Enable required permissions", Toast.LENGTH_LONG).show();
+                    break;
+                }
+            }
+        }
+        if(startActivity) {
+            finish();
+            startActivityWithIntent(getIntent());
+        }
+*/
+    }
+
+    public void startActivityWithIntent(Intent intent) {
+        startActivity(intent);
+    }
+

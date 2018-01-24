@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout_output"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dialog_margin_around"
+    android:background="@color/background_light"
+    android:minWidth="250dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dialog_margin_vertical_small"
+    android:paddingLeft="@dimen/dialog_margin_vertical"
+    android:paddingRight="@dimen/dialog_margin_vertical"
+    android:paddingTop="@dimen/dialog_margin_vertical_small"
+    android:theme="@style/SimpleDialogTheme">
+
+
+    <ScrollView
+        android:id="@+id/sv_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/dialog_tv_output"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:text="Result Report"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

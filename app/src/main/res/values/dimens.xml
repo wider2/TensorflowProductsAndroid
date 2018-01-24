@@ -1,0 +1,142 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin_horizontal">16dp</dimen>
+    <dimen name="activity_margin_vertical">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin_bottom">24dp</dimen>
+
+
+    <!--dialog-->
+    <dimen name="dialog_margin_horizontal">24dp</dimen>
+    <dimen name="dialog_margin_vertical">24dp</dimen>
+    <dimen name="dialog_margin_vertical_small">21dp</dimen>
+    <dimen name="dialog_margin_button_vertical">@dimen/margin_default</dimen>
+    <dimen name="dialog_margin_around">40dp</dimen>
+
+    <!-- margins -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_notification_side">5dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+    <dimen name="margin_default4">12dp</dimen>
+    <dimen name="margin_big">16dp</dimen>
+    <dimen name="margin_seventeen">17dp</dimen>
+    <dimen name="margin_large">18dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_twentytwo">22dp</dimen>
+    <dimen name="margin_bigger">24dp</dimen>
+    <dimen name="margin_x">27dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+    <dimen name="margin_xxl">64dp</dimen>
+    <dimen name="margin_xxxl">150dp</dimen>
+    <dimen name="margin_fab">64dp</dimen>
+    <dimen name="margin_huge">70dp</dimen>
+    <dimen name="margin_massive">82dp</dimen>
+    <dimen name="margin_default2">10dp</dimen>
+    <dimen name="margin_giant">217dp</dimen>
+    <dimen name="margin_image_top">38dp</dimen>
+    <dimen name="margin_textview_top">48dp</dimen>
+    <dimen name="margin_xx">48dp</dimen>
+    <dimen name="margin_call_options_btn">50dp</dimen>
+    <dimen name="margin_content_left">72dp</dimen>
+    <dimen name="margin_enormous">328dp</dimen>
+    <dimen name="margin_gigantic">90dp</dimen>
+
+
+    <!--text-->
+    <dimen name="text_tiny">9sp</dimen>
+    <dimen name="text_smallest">10sp</dimen>
+    <dimen name="text_smaller">11sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_minute">13sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="text_normal">15sp</dimen>
+    <dimen name="text_larger">16sp</dimen>
+    <dimen name="text_largerer">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_19">19sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_header">@dimen/text_20</dimen>
+    <dimen name="text_big">24sp</dimen>
+    <dimen name="text_bigger">25sp</dimen>
+    <dimen name="dialer_edit_text_size">32sp</dimen>
+    <dimen name="name_favorite_star_margin">2dp</dimen>
+
+
+    <!--toolbar-->
+    <dimen name="toolbar_margin_horizontal">@dimen/activity_margin_horizontal</dimen>
+    <dimen name="toolbar_margin_vertical">@dimen/activity_margin_vertical</dimen>
+    <dimen name="toolbar_translation_z">4dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_icon_side">56dp</dimen>
+    <dimen name="toolbar_icon_padding">16dp</dimen>
+
+    <!--listview-->
+    <dimen name="listitem_margin_horizontal">@dimen/activity_margin_horizontal</dimen>
+    <dimen name="listitem_height">56dp</dimen>
+    <dimen name="listitem_height_number">64dp</dimen>
+    <dimen name="listitem_height_large">72dp</dimen>
+    <dimen name="listitem_height_small">48dp</dimen>
+
+    <!--button-->
+    <!-- min touch target should be 48dp-->
+    <dimen name="button_height">42dp</dimen>
+    <dimen name="button_height_large">58dp</dimen>
+    <dimen name="button_height_largest">74dp</dimen>
+
+    <!--drawer-->
+    <dimen name="drawer_margin_left">@dimen/activity_margin_horizontal</dimen>
+    <dimen name="drawer_margin_right">@dimen/activity_margin_horizontal</dimen>
+    <dimen name="drawer_margin_bottom">@dimen/activity_margin_vertical</dimen>
+    <dimen name="drawer_margin_listitems">30dp</dimen>
+    <dimen name="drawer_listitem_height">@dimen/listitem_height</dimen>
+    <dimen name="drawer_listitem_height_small">48dp</dimen>
+    <dimen name="drawer_listitem_height_large">@dimen/listitem_height_large</dimen>
+    <dimen name="drawer_colorbuttons_ctr_margin">-7dp</dimen>
+
+    <!--settings-->
+    <dimen name="settings_listitem_translation_z">2dp</dimen>
+
+    <!--homescreen-->
+    <dimen name="favorites_cardview_corner_radius">4dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Textview values-->
+
+
+    <!--Decorator padding-->
+    <dimen name="paddingItemDecorationDefault">4dp</dimen>
+    <dimen name="paddingItemDecorationEdge">8dp</dimen>
+
+    <!--messaging-->
+    <dimen name="message_avatar_diameter">@dimen/avatar_diameter_small</dimen>
+    <dimen name="message_corner_radius">3dp</dimen>
+    <dimen name="message_container_end_margin">46dp</dimen>
+    <dimen name="message_image_side">150dp</dimen>
+
+
+    <!--progressbar-->
+    <dimen name="progressbar_corner_radius">1dp</dimen>
+
+
+    <!--profileimageview-->
+    <dimen name="avatar_diameter_normal">43dp</dimen>
+    <dimen name="avatar_diameter_large">52dp</dimen>
+    <dimen name="avatar_diameter_small">38dp</dimen>
+    <dimen name="avatar_diameter_drawer">46dp</dimen>
+    <dimen name="buy_number_toolbar_height">228dp</dimen>
+
+
+    <dimen name="purchase_process_text_top_margin">@dimen/margin_xl</dimen>
+
+    <dimen name="card_corner_radius">2dp</dimen>
+
+
+    <!--incomingcall-->
+    <dimen name="slidingpanel_panel_height">54dp</dimen>
+
+
+</resources>
+

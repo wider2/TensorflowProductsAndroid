@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFA000</color>
+
+    <color name="colorStart">#0000FF</color>
+    <color name="colorEnd">#FF0000</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="n_white">#F0FFFFFF</color>
+    <color name="n_white2">#F0F0F0F0</color>
+    
+ <!--   <color name="n_black"   >#001040</color> -->
+    <color name="n_darkblue">#0000FF</color>
+    <color name="n_blue"    >#00C2FC</color>
+    <color name="n_orange"  >#FF8632</color>
+    <color name="n_grey"    >#F0FFFFFF</color>
+    <color name="n_red"  >#FF0000</color>    
+    <color name="n_top_blue">#206060</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="dark_grey">#777777</color>
+
+    <color name="b_blue"  >#33A0D6</color> 
+    <color name="official_blue"  >#097ce7</color>
+
+<!--
+    <color name="n_theme_blue1"    >#20C0FC</color>
+    <color name="n_theme_blue2"    >#1090CC</color>
+-->
+    <color name="n_theme_blue1">#097ce7</color>
+    <color name="n_theme_blue2">#097ce7</color>
+    <color name="n_theme_white">#FFFFFF</color>
+
+
+    <color name="btn_blueO"  >#303030</color>
+    <color name="btn_blueT"  >#00C2FC</color>
+    <color name="btn_blueB"  >#0090B0</color>
+    <color name="btn_orangeT">#FF8632</color>
+    <color name="btn_orangeB">#B04000</color>
+    <color name="btn_focusT" >#50C0FF</color>
+    <color name="btn_focusB" >#2090B0</color>
+    
+    <color name="btn_greenO" >#303030</color>
+    <color name="btn_greenT" >#00FCC2</color>
+    <color name="btn_greenB" >#00B090</color>
+    <color name="btn_yellowT">#F0F0C0</color>
+    <color name="btn_yellowB">#A0A080</color>
+    <color name="btn_greyT"  >#C0C0C0</color>
+    <color name="btn_greyB"  >#808080</color>
+    
+    <color name="input_border">#305080</color>
+    <color name="input_fill"  >#e0f0ff</color>
+    <color name="btn_dropdown">#e2e2e2</color>
+
+    <color name="n_theme_blue_n1"  >#4080C0</color> <!-- Navy -->
+
+
+    <!-- NB!! "color_name_80" means that this color has alpha value of 80% -->
+    <!-- if a color named as such is not transparent: it is WRONG-->
+
+    <color name="highlight">#35BFFF</color>
+    <color name="green_message">#30ca57</color>
+
+
+    <!--categories-->
+    <color name="category_blue">#2F7DE1</color>
+    <color name="credit_blue_dark">#2C73D1</color>
+    <color name="category_blue_light">#5997E7</color>
+    <color name="category_blue_dark">#194c8d</color>
+    <color name="category_blue_26">#422F7DE1</color>
+
+    <color name="category_aqua">#00C4B3</color>
+    <color name="category_aqua_light">#33D0C3</color>
+    <color name="category_aqua_dark">#057067</color>
+    <color name="category_aqua_26">#4200C4B3</color>
+
+    <color name="category_green">#72D54A</color>
+    <color name="category_green_light">#8FDE6F</color>
+    <color name="category_green_dark">#387e1c</color>
+    <color name="category_green_26">#4272D54A</color>
+
+    <color name="category_yellow">#FFC627</color>
+    <color name="category_yellow_light">#FFD253</color>
+    <color name="category_yellow_dark">#8a690e</color>
+    <color name="category_yellow_26">#42FFC627</color>
+
+    <color name="category_pink">#FF6D94</color>
+    <color name="category_pink_light">#FF8AA9</color>
+    <color name="category_pink_dark">#A03651</color>
+    <color name="category_pink_26">#42FF6D94</color>
+
+    <color name="category_red">#FF5959</color>
+    <color name="category_red_light">#FF7B7B</color>
+    <color name="category_red_dark">#a32a2a</color>
+    <color name="category_red_26">#42FF5959</color>
+
+    <color name="category_purple">#A25CBF</color>
+    <color name="category_purple_light">#B57DCC</color>
+    <color name="category_purple_dark">#6c3882</color>
+    <color name="category_purple_26">#42A25CBF</color>
+
+    <color name="category_disabled">#7F91A3</color>
+    <color name="sdf">#546368</color>
+
+    <color name="unassigned">#7F91A3</color>
+
+
+    <color name="unassigned_light">#99A7B5</color>
+    <color name="unassigned_dark">#7F91A3</color>
+    <color name="category_all">#A7BAC9</color>
+
+
+    <!--brands-->
+    <color name="facebook">#2e4381</color>
+    <color name="google">#c9352d</color>
+    <color name="twitter">#4490d8</color>
+
+    <!--backgrounds-->
+    <color name="background_bright">#fafafb</color>
+    <color name="background_light">@color/white</color>
+    <color name="background_material_light">@color/gray_material_background</color>
+    <color name="background_drawer">#ff1F2D39</color>
+    <color name="background_drawer_light">#E7ECF1</color>
+    <color name="background_drawer_text_color">#83929E</color>
+    <color name="background_drawer_icon_color">#bac4cc</color>
+    <color name="background_dark">#1f2d39</color>
+
+
+    <!--blacks-->
+
+
+    <color name="black_06">#0F000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_12">#1F000000</color>
+    <color name="black_24">#3D000000</color>
+    <color name="black_26">#42000000</color>
+    <color name="black_54">#8A000000</color>
+    <color name="black_55">#8C000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_65">#A6000000</color>
+    <color name="black_23">#3A000000</color>
+    <color name="black_trans">#373737</color>
+    <color name="black_accented_dark">#1f2d39</color>
+    <color name="black_accented">#263746</color>
+    <color name="black_accented_10">#1A263746</color>
+    <color name="black_accented_40">#66263746</color>
+    <color name="validation_editblack">#3E4754</color>
+    <color name="black_deleted_number">#98aab8</color>
+    <color name="black_accented_60">#99263746</color>
+    <color name="black_accented_30">#4d263746</color>
+    <color name="friend_request_profile_color">#a7bac9</color>
+    <color name="settings_divider_background">#dcdcdb</color>
+    <color name="stealth_checkbox_background">#83929E</color>
+    <color name="stealth_black">#1a535f70</color>
+    <color name="signup_profile_image_border_color">#14000000</color>
+
+
+    <!--whites-->
+
+    <color name="white_10">#1affffff</color>
+    <color name="white_20">#30ffffff</color>
+
+    <color name="white_26">#42ffffff</color>
+    <color name="white_30">#4dffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="white_70">#b2ffffff</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_87">#deffffff</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_95">#f2ffffff</color>
+    <color name="buy_number_even_item_background">#f2f4f6</color>
+    <color name="buy_number_odd_item_background">#fafafa</color>
+    <color name="dialer_white">#fcfcfc</color>
+
+
+    <color name="gray_light3">#efefef</color>
+    <color name="gray_light2">#e9e9e9</color>
+    <color name="gray_light">#dddddd</color>
+    <color name="gray_mid">#888888</color>
+    <color name="gray_material_background">#FAFAFA</color>
+    <color name="gray_dark">#525e6f</color>
+    <color name="gray_circle">#E7ECF1</color>
+
+    <!--action-->
+    <color name="red_900">#E52540</color>
+    <color name="warning_red">#E52540</color>
+    <color name="action_green">#2ecc71</color>
+    <color name="answer_call_green">#0bc955</color>
+    <color name="blue_btn">#4467f2</color>
+    <color name="blue_btn_80">#cc4367f2</color>
+    <color name="dark_purple">#680092</color>
+
+    <!--blues-->
+    <color name="blue_primary">#2F7DE1</color>
+    <color name="blue_primary_near_dark">#437aaa</color>
+    <color name="blue_primary_darker">#2871D1</color>
+    <color name="blue_primarydark">#FF1F4D9E</color>
+    <color name="blue_listitem_selected">#F0F2F9</color>
+
+    <!--dialog-->
+    <color name="dialog_light_background">@color/white</color>
+    <color name="dialog_light_title">@color/black_accented</color>
+
+    <!--toolbar-->
+    <color name="toolbar_light_background">@color/white</color>
+    <color name="toolbar_dark_background">@color/blue_primary</color>
+    <color name="toolbar_dark_background_onoff">@color/blue_primary_near_dark</color>
+    <color name="toolbar_dark_header">@color/white</color>
+    <color name="toolbar_dark_text">@color/white</color>
+    <color name="toolbar_green_background">#25a86c</color>
+
+    <!--Login Page Colors-->
+    <color name="login_btn_color">#2ecc71</color>
+    <color name="login_background_color">#00C4B3</color>
+    <color name="login_facebook_btn_color">#3b5998</color>
+    <color name="login_google_btn_color">#dd4b39</color>
+    <color name="login_btn_text_color">#5c6670</color>
+
+
+    <!--listview-->
+    <color name="listview_light_background">@color/white</color>
+
+    <!--ripple-->
+    <color name="ripple_light">#66ffffff</color>
+    <color name="login_ripple_light">#E0E0E0</color>
+
+    <!--timepicker-->
+    <color name="mdtp_accent_color">#2f7de1</color>
+
+    <color name="circle_color_0">#808080</color>
+    <color name="circle_color_1">#473B63</color>
+    <color name="circle_color_2">#ED5D6B</color>
+    <color name="circle_color_3">#C6AD73</color>
+    <color name="circle_color_4">#546368</color>
+    <color name="circle_color_5">#B2E024</color>
+    <color name="circle_color_6">#52CF87</color>
+    <color name="circle_color_7">#0C7EC4</color>
+    <color name="circle_color_8">#7E57C2</color>
+
+
+    <color name="dialer_divider_color">#10242A30</color>
+
+    <!--progressbar-->
+    <color name="progressbar_background">@color/black_12</color>
+
+    <color name="listitem_text_primary">@color/black_accented</color>
+    <color name="listitem_text_secondary">@color/black_accented_60</color>
+    <color name="listitem_text_secondary_bold">@color/black_accented</color>
+
+
+
+</resources>
